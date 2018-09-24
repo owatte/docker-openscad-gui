@@ -1,12 +1,12 @@
 # Openscad
 
-Dockerfile to provide a ready to use openscad full environment with GUI and renderer and can access to the local file system in RW mode.
-
-This environment is intended to be used in 3D CAD courses at the "Université des Antilles" in Guadeloupe (French West Indies)
+Dockerfile to provide a ready to use openscad full environment with GUI plus renderer and access to the host file system in RW mode.
 
 I made this image because Openscad depends on old libs like QT4 and is not more packaged with recent GNU/Linux version, such as GNU/Linux Debian 10 (Buster) or GNU/Linux Ubuntu 18.04 (Bionic Beaver)
 
-This image is build on stable GNU/Linux Ubuntu 16.04 LTS (Xenial Xerus) and run openscad 2015-03-1
+This environment is intended to be used in 3D CAD courses or fablab experimentations.
+
+This image is build on stable GNU/Linux Ubuntu 16.04 LTS (Xenial Xerus) and run openscad 2015-03-1.
 
 ## Build
 Automated build are not yet available so you have to build your owm image
@@ -28,7 +28,7 @@ In order to stop the environment, hit `CTRL+C` in the window shell within opensc
 
 ## Author
 
-This image was created by [Olivier Watté](httpt://github.com/owatte/) for a purpose of 3D CAD training courses.
+This image was created by [Olivier Watté](httpt://github.com/owatte/) for a purpose of 3D CAD training courses at the "Université des Antilles" in Guadeloupe (French West Indies).
 
 ## Contributing
 
