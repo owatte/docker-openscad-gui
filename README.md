@@ -8,17 +8,21 @@ This environment is intended to be used in 3D CAD courses or fablab experiments.
 
 This image is build on stable GNU/Linux Ubuntu 16.04 LTS (Xenial Xerus) and run **openscad 2015-03-1**.
 
+
+## Install 
+Automated build are available from the Docker Hub
+
+```bash
+$ sudo docker pull owatte/docker-openscad-gui
+```
+
 ## Build
-Automated build are not yet available so you have to build your owm image
 
 ```bash
 $ git clone  https://github.com/owatte/docker-openscad-gui.git
 $ cd docker-openscad-gui
 $ sudo docker build -t openscad:latest .
 ```
-## Install
-
-[TODO] Coming soon : Automated builds of the image are available on [Dockerhub](https://hub.docker.com/) and is the recommanded method of installation.
 
 ## Run
 In order to start the environment, use the [`run.sh`](run.sh) script.
