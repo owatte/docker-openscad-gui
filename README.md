@@ -29,6 +29,14 @@ In order to start the environment, use the [`run.sh`](run.sh) script.
 ```bash
 $ sudo ./run.sh
 ```
+
+If you obtain an error message such as
+```
+No protocol specified
+QXcbConnection: Could not connect to display unix:0
+```
+try to run `xhost +"local:docker@"` or better, fix it in a safer way : http://wiki.ros.org/docker/Tutorials/GUI 
+
 ### Stop
 In order to stop the environment, hit `CTRL+C` in the window shell within openscad is running.
 
